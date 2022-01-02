@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+$bg-color:#383737;
+$black:#0d0d0d;
+$light-bg:#1a1a1a;
+$white:#fff;
+$light: #aaa;
+$font: 'Lora', serif;
+$crimson : rgb(0, 153, 255);
+
+$box-shadow:0 .5rem 1rem rgba(0,0,0,.7);
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap:1.5rem;
+}
